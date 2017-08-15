@@ -3,7 +3,7 @@ const initState = {
         { id: 1, name: 'AAA', isComplete: true }
     ],
 
-    currentTodo: ''
+    currentTodo: 'temp'
 };
 
 const CURRENT_UPDATE = 'CURRENT_UPDATE';
