@@ -1,5 +1,7 @@
 const initState = {
-    todos: []
+    todos: [
+        { id: 1, name: 'AAA', isComplete: true }
+    ]
 };
 
 export default (state = initState, action) => {
