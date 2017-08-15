@@ -4,16 +4,12 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const state = {
-    todos: [
-        {id: 1, name: 'Render Static UI', isComplete: true},
-        {id: 2, name: 'Create initial state', isComplete: true},
-        {id: 3, name: 'Render based on stae', isComplete: true}
-    ]
-}
+import store from './store';
+
+const state = store.getState();
 
 ReactDOM.render(
-    <App todos={state.todos} />, 
+    <App {...state} />, 
     document.getElementById('root')
 );
 
