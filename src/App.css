@@ -24,7 +24,7 @@
 }
 
 .Todo-App {
-  padding-top: 20px;
+  padding-top: 35px;
   display: inline-block;
   text-align: left;
 }
@@ -39,4 +39,12 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.message {
+  color: #FFFFFF;
+  background-color: #61DAFB;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  display: block;
 }
