@@ -1,6 +1,6 @@
 ## React + Redux
 
-> A demo application using React + Redux
+> A demo application using React + Redux + Thunk
 
 ### Install
 
