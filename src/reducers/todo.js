@@ -7,8 +7,9 @@ const initState = {
     currentTodo: 'temp'
 };
 
-const CURRENT_UPDATE = 'CURRENT_UPDATE';
-const TODO_ADD = 'TODO_ADD';
+export const CURRENT_UPDATE = 'CURRENT_UPDATE';
+export const TODO_ADD = 'TODO_ADD';
+
 const TODOS_LOAD = 'TODOS_LOAD';
 
 export const updateCurrent = (val) => ({type: CURRENT_UPDATE, payload: val})
