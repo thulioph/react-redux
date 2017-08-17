@@ -1,7 +1,19 @@
 {
-    "todos": [
-        { "id": 1, "name": "AAA", "isComplete": true },
-        { "id": 2, "name": "BBB", "isComplete": true },
-        { "id": 3, "name": "CCC", "isComplete": false }
-    ]
+  "todos": [
+    {
+      "id": 1,
+      "name": "AAA",
+      "isComplete": false
+    },
+    {
+      "id": 2,
+      "name": "BBB",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "CCC",
+      "isComplete": false
+    }
+  ]
 }
