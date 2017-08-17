@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,7 +23,9 @@ class App extends Component {
 
             <TodoForm />
 
-            <TodoList />
+            <Route path="/:filter?" render={({match}) => (
+              <TodoList filter={match.params.filter} />
+            )} />
             
             <Footer />
           </div>

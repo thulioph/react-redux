@@ -5,6 +5,6 @@ export default (props) => (
     <div>
         <Link to="/">All</Link>
         <Link to="/active">Active</Link>
-        <Link to="/complete">Complete</Link>
+        <Link to="/completed">Complete</Link>
     </div>
 );
