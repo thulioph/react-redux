@@ -66,3 +66,7 @@ li {
 li:hover span {
   visibility: visible;
 }
+
+a {
+  padding: 0 2px;
+}
