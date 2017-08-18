@@ -1,6 +1,13 @@
 ## React + Redux
 
-> A demo application using React + Redux + Thunk
+> A simple Todo Application
+
+- React
+- Redux
+- JSX
+- React-router
+- Thunk
+- Now
 
 ### Install
 
@@ -11,7 +18,8 @@ $ yarn instal
 ### Run
 
 ```shell
-$ yarn start
+$ yarn dev
+$ yarn dev-server
 ```
 
 ## Tests
